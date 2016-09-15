@@ -1,0 +1,28 @@
+
+1. Napisac funkcje, która znajdzie i zapisze do pliku wszystkie liczby pierwsze z zadanego przez uzytkownika przedzialu.
+2. Napisac funkcje, która sprawdzi, ile jest róznych znaków w podanym przez uzytkownika tekscie.
+3. Napisac funkcje, która podany przez uzytkownika tekst rozbije na slowa, a nastepnie uporzadkuje je malejaco wg dlugosci.
+   Jesli slowa maja te sama dlugosc to porzadkujemy je w kolejnosci alfabetycznej. 
+   Funkcja zwraca liste uporzadkowanych slów.
+4. Napisac funkcje, która przeksztalci wprowadzona liczbe dziesietna na jej postac slowna (funkcja powinna obslugiwac liczby max pieciocyfrowe).
+5. Napisac funkcje, która dostaje dwie nazwy miesiecy i sprawdza, ile miesiecy mija od pierwszego do drugiego z nich.  
+   Jesli drugi jest wczesniejszy niz pierwszy, zakladamy, ze jest on w nastepnym roku.
+6. Napisac funkcje, która z pliku bedacego programem w jezyku C++ usunie wszystkie komentarze.
+7. Napisac funkcje, która wypisze 10 najczesciej wystepujacych slów (wraz z liczba wystapien) 
+   w plikach tekstowych podanych jako parametry (dowolna liczba parametrów).
+8. Napisac funkcje, która z zestawu par postaci (imie i nazwisko, ocena) opisujacych oceny uczniów, 
+   wybierze i zwróci liste tych uczniów, którzy spelniaja zadane kryterium dotyczace oceny np.ocena = 4. 
+   Lista uczniów oraz kryterium wyboru powinny byc parametrami funkcji.
+9. Napisac program, który znajdzie w podanym przez uzytkownika katalogu (wraz z podkatalogami) wszystkie pliki, 
+   które zawieraja w tresci zadane slowo.
+10.Napisac program zwracajacy liste unikalnych nazw plików w danym katalogu (oczywiscie z podkatalogami).
+11.Napisac program, który dla pliku zawierajacego liste postaci:
+	adres / maska / bramka
+	adres / maska / bramka
+	..... / ..... / ......
+   wygeneruje plik konfiguracyjny w skladni dla Windowsa, Linuksa lub Cisco (w zaleznosci od wyboru uzytkownika) postaci np dla Windows:
+	route add adres netmask maska bramka
+	....................................
+12.Napisac program, który z pliku HTML wydobedzie tekst tzn. oczysci go ze wszystkich znaczników (mozna zignorowac elementy graficzne)
+
+
