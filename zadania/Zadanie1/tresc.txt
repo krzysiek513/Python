@@ -1,0 +1,23 @@
+1. 
+
+Napisać program pobierający od użytkownika dwie liczby całkowite wzrost1 i wzrost2,
+oznaczające początkowy wzrost w cm dwóch 7-latków rozpoczynających naukę w szkole
+podstawowej, oraz liczby rzeczywiste wspolczynnik1 i wspolczynnik2, określające
+procentowy miesięczny współczynnik wzrostu odpowiednio pierwszego i drugiego ucznia.
+Współczynnik ten określa o ile procent miesięcznie powiększa się wzrost ucznia w stosunku
+do poprzedniego miesiąca.
+Zadaniem programu jest określenie czy i jeżeli tak, to po ilu latach/miesiącach, wzrost
+jednego dziecka (niższego) przekroczy wzrost tego drugiego (wyższego). W przypadku
+takiego samego wzrostu początkowego uczniów, odpowiedź pozytywna powinna pojawić
+się tylko dla różnych współczynników wzrostu i wynikiem powinien być 1 miesiąc. Dla
+uproszczenia należy założyć, że początkowy wiek uczniów jest równy dokładnie 7 lat, a ich
+wzrost rośnie tylko do czasu osiągnięcia przez nich wieku 18 lat.
+Przykład 1: jeżeli wzrost1=115, wzrost2=130, wspolczynnik1=0,3% i wspolczynnik2=0,1%,
+program odpowie „Tak, lata: 5, miesiące: 2”.
+Przykład 2: jeżeli wzrost1=130, wzrost2=115, wspolczynnik1=0,1% i wspolczynnik2=0,1%,
+program odpowie „Nie”.
+Przykład 3: jeżeli wzrost1=135, wzrost2=115, wspolczynnik1=0,1% i wspolczynnik2=0,2%,
+program odpowie „Nie”.
+Przykład 4: jeżeli wzrost1=115, wzrost2=115, wspolczynnik1=0,2% i wspolczynnik2=0,1%,
+program odpowie „Tak, miesiące: 1”.
+

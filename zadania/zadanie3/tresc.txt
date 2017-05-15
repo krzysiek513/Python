@@ -1,0 +1,36 @@
+1. 
+
+Pewna Anemiczna Żaba potrafi wykonać skok o długości S cm. Po 5 takich skokach żaba
+robi się trochę zmęczona i wykonuje skoki o połowę krótsze. Po kolejnych 5 skokach żaba
+jest zmęczona jeszcze bardziej i jej skoki skracają się do 2/3 poprzedniej długości, po
+następnych 5 skokach – do 3/4 poprzedniej długości, i tak dalej. Gdy skoki żaby staną się
+krótsze niż K cm – żaba zatrzymuje się i odpoczywa.
+Napisz program pobierający od użytkownika liczbę metrów D jaką ma przebyć żaba (ma to
+być liczba całkowita dodatnia) i informujący, czy żaba da radę przebyć tę drogę bez
+odpoczynku, a jeśli tak to w ilu skokach 
+
+(przykład: dla S=40 [cm], K=1 [cm] i D=5 [m]
+odpowiedzią jest „tak, w 32 skokach”, dla S=40, K=1 i D=10 odpowiedzią jest „nie”).
+
+
+
+
+2. 
+
+Plik tekstowy input.txt zawiera w kolejnych liniach liczby całkowite oddzielone spacjami, w
+każdej linii znajduje się co najmniej jedna liczba, np.:
+2 33 5 662 1
+8
+8 22 12 1
+-2 -3 0 8
+-2
+Napisać program odczytujący ten plik i tworzący, po pobraniu od użytkownika liczby
+całkowitej K, nowy plik o nazwie podanej przez użytkownika. Plik wynikowy ma zawierać
+w kolejnych liniach słowa „tak” lub „nie”, stanowiące informację czy odpowiadająca (tj. ta
+sama w kolejności, licząc od początku) linia pliku wejściowego zawiera liczbę większą niż
+K. Przykład: dla powyższego pliku wejściowego i K=10 plik wynikowy przyjmie postać:
+tak
+nie
+tak
+nie
+nie

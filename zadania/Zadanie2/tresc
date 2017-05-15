@@ -1,0 +1,15 @@
+Plik tekstowy input.txt zawiera w kolejnych parach linii nazwę produktu (pierwsza linia wparze) oraz ceny tego produktu w różnych sklepach (przynajmniej jedną) oddzielone
+spacjami (druga linia w parze), np.:
+Notebook 15”
+1499 1519 1449 1519
+Karta pamięci microSD 8GB
+11.49 12.50 10.99
+
+
+Napisać program odczytujący ten plik i tworzący nowy plik output.txt będący kopią pliku
+wejściowego, ale bez najwyższych cen każdego z produktów. Jeżeli wszystkie ceny danego produktu są identyczne, pozostają bez zmian.
+Dla powyższego przykładu plik wynikowy przyjmie postać:
+Notebook 15”
+1499 1449
+Karta pamięci microSD 8GB
+11.49 10.99
