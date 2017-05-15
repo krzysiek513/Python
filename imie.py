@@ -1,2 +1,2 @@
-imie = raw_input("Podaj swoje imiE ")
-print "Witaj ", imie, ", widze, ze niezle Ci idzie!"
+imie = input("Podaj swoje imiE ")
+print("Witaj ", imie, ", widzę, że nieźle Ci idzie!")
